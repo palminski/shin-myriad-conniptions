@@ -32,13 +32,36 @@ export default function Home() {
 
                 <div className="flex flex-wrap">
                     <div className="w-full lg:w-1/2 p-2">
-                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/climbing_gym.jpg')] aspect-square">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/www_laptop.jpg')] aspect-square">
+                            <Link href={"web-design"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
+                                <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
+                                    <h3 className="text-6xl text-center uppercase">Freelance Web Design</h3>
+                                </div>
+                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Freelance Web Design</h3>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="w-full lg:w-1/2 p-2">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/talk-nerdy-to-me.png')] aspect-square">
                             <Link href={"structural-fab"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
-                                    <h3 className="text-6xl text-center uppercase">Structural Fabrication</h3>
+                                    <h3 className="text-6xl text-center uppercase">Developer at Partnered Solutions IT</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Structural Fabrication</h3>
+                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Developer at Partnered Solutions IT</h3>
 
+                            </Link>
+                        </div>
+                    </div>
+                    
+
+                    {/* <div className="w-full lg:w-1/2 p-2">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/stairs.jpg')] aspect-square">
+                            <Link href={"concrete"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
+                                <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
+                                    <h3 className="text-6xl text-center uppercase">Concrete & Design</h3>
+                                </div>
+                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Concrete & Design</h3>
                             </Link>
                         </div>
                     </div>
@@ -51,27 +74,8 @@ export default function Home() {
                                 <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Interior Design</h3>
                             </Link>
                         </div>
-                    </div>
-                    <div className="w-full lg:w-1/2 p-2">
-                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/www_laptop.jpg')] aspect-square">
-                            <Link href={"web-design"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
-                                <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
-                                    <h3 className="text-6xl text-center uppercase">Graphic Web Design</h3>
-                                </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Graphic Web Design</h3>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="w-full lg:w-1/2 p-2">
-                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/stairs.jpg')] aspect-square">
-                            <Link href={"concrete"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
-                                <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
-                                    <h3 className="text-6xl text-center uppercase">Concrete & Design</h3>
-                                </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Concrete & Design</h3>
-                            </Link>
-                        </div>
-                    </div>
+                    </div> */}
+
                 </div>
             </div>
 
@@ -82,7 +86,7 @@ export default function Home() {
 
                 <div className="mb-20 space-y-8">
                     <div className="space-y-1">
-                        <h2 className="text-left font-bold text-5xl">Architecture & Design</h2>
+                        <h2 className="text-left font-bold text-5xl">Projects</h2>
                         <h3 className="text-left italic text-2xl poppins-light-italic">Academic and Crafted Works</h3>
                     </div>
 
@@ -94,32 +98,32 @@ export default function Home() {
 
                 <div className="flex flex-wrap">
                     <div className="w-full lg:w-1/2 p-2">
-                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/building.jpg')] aspect-square">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/RABITCard.png')] aspect-square">
                             <Link href={"thesis"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
-                                    <h3 className="text-6xl text-center uppercase">Architectural Thesis</h3>
+                                    <h3 className="text-6xl text-center uppercase">RABIT</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Architectural Thesis</h3>
+                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">RABIT</h3>
                             </Link>
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 p-2">
-                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/table.jpg')] aspect-square">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/Vorpal.jpg')] aspect-square">
                             <Link href={"furniture"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
-                                    <h3 className="text-6xl text-center uppercase">Furniture Design</h3>
+                                    <h3 className="text-6xl text-center uppercase">Vorpal</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Furniture Design</h3>
+                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Vorpal</h3>
                             </Link>
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 p-2">
-                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/model.jpg')] aspect-square">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/redops.png')] aspect-square">
                             <Link href={"models"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
-                                    <h3 className="text-6xl text-center uppercase">Architecture Models</h3>
+                                    <h3 className="text-6xl text-center uppercase">Redops</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Architecture Models</h3>
+                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-white/80">Redops</h3>
                             </Link>
                         </div>
                     </div>

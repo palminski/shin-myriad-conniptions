@@ -67,8 +67,8 @@ export default function NavBar() {
                     <Link className={`relative h-20 flex transition-all duration-300 ease-in-out hover:scale-105 items-center`} href="/" onClick={(e) => handleScrollLink(e, null, '/')}>
                         <div className={`relative w-16 py-2 flex transition-all duration-300 ease-in-out hover:scale-105`}>
                             <Image
-                                src="/images/Logo.svg"
-                                alt="Benjamin Paul Clark"
+                                src="/images/Logo.png"
+                                alt="Will Bolls"
                                 layout="responsive"
                                 width={1440}
                                 height={320}
@@ -98,11 +98,11 @@ export default function NavBar() {
                             <Link className={`${currentPath === "/about" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#professional-work" onClick={(e) => handleScrollLink(e, 'professional-work', '/')}>Professional Work</Link>
                         </li>
                         <li className="mx-4">
-                            <Link className={`${currentPath === "/services" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#architecture-design" onClick={(e) => handleScrollLink(e, 'architecture-design', '/')}>Architecture & Design</Link>
+                            <Link className={`${currentPath === "/services" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#architecture-design" onClick={(e) => handleScrollLink(e, 'architecture-design', '/')}>Projects</Link>
                         </li>
 
                         <li className="mx-4">
-                            <Link className={`${currentPath === "/faq" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#personal-projects" onClick={(e) => handleScrollLink(e, 'personal-projects', '/')}>Art & Personal Projects</Link>
+                            <Link className={`${currentPath === "/faq" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#personal-projects" onClick={(e) => handleScrollLink(e, 'personal-projects', '/')}>Other Experience</Link>
                         </li>
                         <li className="mx-4">
                             <Link className={`${currentPath === "/faq" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#about" onClick={(e) => handleScrollLink(e, 'about', '/')}>About Me</Link>
