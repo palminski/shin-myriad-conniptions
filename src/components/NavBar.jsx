@@ -81,7 +81,7 @@ export default function NavBar() {
                     </Link>
                 </div>
 
-                <nav className={`flex-2 flex w-full justify-end transition-all ease-in-out font-semibold duration-300 ${pageScrolled || currentPath !== "/" ? "xl:-translate-x-[-25%] 2xl:-translate-x-[-35%]" : " lg:-translate-x-[0%] xl:-translate-x-[-15%]"}`}>
+                <nav className={`flex-2 flex w-full justify-end transition-all ease-in-out font-semibold duration-300 ${pageScrolled || currentPath !== "/" ? "xl:-translate-x-[-45%] 2xl:-translate-x-[-48%]" : " lg:-translate-x-[0%] xl:-translate-x-[-16%]"}`}>
                     {/* MOBILE BURGER TOGGLE */}
                     <div className={`border border-slate-400 transition-all ease-in-out duration-300  xl:hidden p-1 ${navOpen ? 'rounded-3xl' : 'rounded-none'}`} onClick={() => setNavOpen(!navOpen)}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`size-6 ${navOpen ? "hidden" : ""}`}>
@@ -94,20 +94,17 @@ export default function NavBar() {
                     {/* BROWSER MENU */}
                     <ul className={`hidden w-full xl:flex transition-all duration-300 ease-in-out xl:text-lg ${pageScrolled || currentPath !== "/" ? "xl:text-lg " : ""}`}>
 
-                        <li className="mx-4">
+                        <li className="mx-8">
                             <Link className={`${currentPath === "/about" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#professional-work" onClick={(e) => handleScrollLink(e, 'professional-work', '/')}>Professional Work</Link>
                         </li>
-                        <li className="mx-4">
-                            <Link className={`${currentPath === "/services" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#architecture-design" onClick={(e) => handleScrollLink(e, 'architecture-design', '/')}>Projects</Link>
+                        <li className="mx-8">
+                            <Link className={`${currentPath === "/services" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#personal-projects" onClick={(e) => handleScrollLink(e, 'personal-projects', '/')}>Personal Projects</Link>
                         </li>
 
-                        <li className="mx-4">
-                            <Link className={`${currentPath === "/faq" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#personal-projects" onClick={(e) => handleScrollLink(e, 'personal-projects', '/')}>Other Experience</Link>
-                        </li>
-                        <li className="mx-4">
+                        <li className="mx-8">
                             <Link className={`${currentPath === "/faq" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#about" onClick={(e) => handleScrollLink(e, 'about', '/')}>About Me</Link>
                         </li>
-                        <li className="mx-4">
+                        <li className="mx-8">
                             <Link className={`${currentPath === "/faq" ? "scale-105 " : " hover: hover:scale-105"}  inline-block transform transition duration-300 ease-in-out`} href="/#contact" onClick={(e) => handleScrollLink(e, 'contact', '/')}>Contact</Link>
                         </li>
 
@@ -127,11 +124,9 @@ export default function NavBar() {
                         <Link className={`${currentPath === "/about" ? "scale-105 text-white" : "text-white hover:text-white hover:scale-105"} inline-block transform transition duration-300 ease-in-out`} href="/#professional-work" onClick={(e) => handleScrollLink(e, 'professional-work', '/')}>Professional Work</Link>
                     </li>
                     <li className="my-4">
-                        <Link className={`${currentPath === "/services" ? "scale-105 text-white" : "text-white hover:text-white hover:scale-105"} inline-block transform transition duration-300 ease-in-out`} href="/#architecture-design" onClick={(e) => handleScrollLink(e, 'architecture-design', '/')}>Architecture & Design</Link>
+                        <Link className={`${currentPath === "/services" ? "scale-105 text-white" : "text-white hover:text-white hover:scale-105"} inline-block transform transition duration-300 ease-in-out`} href="/#personal-projects" onClick={(e) => handleScrollLink(e, 'personal-projects', '/')}>Personal Projects</Link>
                     </li>
-                    <li className="my-4">
-                        <Link className={`${currentPath === "/faq" ? "scale-105 text-white" : "text-white hover:text-white hover:scale-105"} inline-block transform transition duration-300 ease-in-out`} href="/#personal-projects" onClick={(e) => handleScrollLink(e, 'personal-projects', '/')}>Art & Personal Projects</Link>
-                    </li>
+
                     <li className="my-4">
                         <Link className={`${currentPath === "/faq" ? "scale-105 text-white" : "text-white hover:text-white hover:scale-105"} inline-block transform transition duration-300 ease-in-out`} href="/#about" onClick={(e) => handleScrollLink(e, 'about', '/')}>About</Link>
                     </li>

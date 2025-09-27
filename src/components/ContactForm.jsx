@@ -35,7 +35,7 @@ export function ContactForm() {
     
 
     return (
-        <div className="rounded-lg w-full border bg-theme-white overflow-hidden ">
+        <div className="rounded-lg w-full border border-purple-400 bg-theme-white overflow-hidden ">
             <div className="pt-5 pb-0.5 mb-4 px-3" >
                 <h2 className="mb-2 text-2xl lg:text-4xl tracking-tight">Contact Me</h2>
                 <p className="mb-4 font-light lg:text-lg">Have any questions about my services? Don't hesitate to reach out! I will respond as soon as I am able.</p>
@@ -43,7 +43,7 @@ export function ContactForm() {
 
             <form onSubmit={(e) => {reset(); handleSubmit(e)}} className="space-y-8 px-3 pb-4">
                 <div>
-                    <label htmlFor="email" className="block mb-1 text-sm lg:text-base font-medium text-custom-green-dark">Your Email</label>
+                    <label htmlFor="email" className="block mb-1 text-sm lg:text-base font-medium text-purple-400">Your Email</label>
                     <input type="email" name="email" onChange={handleFormChange} value={formData.email} id="email" className="placeholder:text-theme-blue/50 shadow-sm text-black border border-custom-green-dark text-sm lg:text-base rounded-lg focus:ring-custom-green-dark focus:border-custom-green-dark block w-full p-2.5 placeholder-gray-400" placeholder="name@email.com" required />
                     <ValidationError
                         prefix="Email"
@@ -52,7 +52,7 @@ export function ContactForm() {
                     />
                 </div>
                 <div>
-                    <label htmlFor="subject" className="block mb-1 text-sm lg:text-base font-medium text-custom-green-dark">Subject</label>
+                    <label htmlFor="subject" className="block mb-1 text-sm lg:text-base font-medium text-purple-400">Subject</label>
                     <input type="text" name="subject" onChange={handleFormChange} value={formData.subject} id="subject" className="block placeholder:text-theme-blue/50 text-black p-3 w-full text-sm lg:text-base  rounded-lg border border-custom-green-dark shadow-sm focus:ring-custom-green-dark focus:border-custom-green-dark  placeholder-gray-400" placeholder="Let me know how I can help you" required />
                     <ValidationError
                         prefix="Subject"
@@ -61,7 +61,7 @@ export function ContactForm() {
                     />
                 </div>
                 <div className="sm:col-span-2">
-                    <label htmlFor="message" className="block mb-1 text-sm lg:text-base font-medium text-custom-green-dark">Your Message</label>
+                    <label htmlFor="message" className="block mb-1 text-sm lg:text-base font-medium text-purple-400">Your Message</label>
                     <textarea id="message" name="message" onChange={handleFormChange} value={formData.message} rows="6" className="block placeholder:text-theme-blue/50 text-black p-2.5 w-full text-sm lg:text-base  rounded-lg shadow-sm border border-custom-green-dark focus:ring-custom-green-dark focus:border-custom-green-dark  placeholder-gray-400" placeholder="Leave a comment..."></textarea>
                 </div>
                 <button type="submit" disabled={state.submitting} className="border bg-theme-blue transform transition-transform duration-200 hover:scale-105 rounded-lg  lg:w-auto  w-full lg:text-2xl px-4 py-2">Send Message</button>
