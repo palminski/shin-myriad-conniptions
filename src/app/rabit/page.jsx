@@ -15,10 +15,10 @@ export default function Thesis() {
         <main className=" lg:mt-[50px] pt-8">
 
             <div className="mt-10 mb-20 space-y-8">
-                <div className="space-y-1 flex justify-between items-center">
+                <div className="space-y-4 lg:space-y-1 lg:flex justify-between items-center">
                     <div className="space-y-1">
-                        <h1 className="text-left font-bold text-5xl">RABIT</h1>
-                        <h3 className="text-left italic text-2xl poppins-light-italic">Retro 2D platformer</h3>
+                        <h1 className="text-left font-bold text-4xl lg:text-5xl">RABIT</h1>
+                        <h3 className="text-left italic lg:text-2xl poppins-light-italic">Retro 2D Platformer</h3>
                     </div>
                     <div className="h-12 flex space-x-4">
 
@@ -41,7 +41,7 @@ export default function Thesis() {
                     RABIT is an arcade style platforming game with retro graphics and a mysterious atmosphere. Its central mechanic is the ability to toggle certain objects on and off at the click of a button. This along with several other movement abilities allows for some devious and exciting platforming sections
                 </p>
 
-                <a href="https://store.steampowered.com/app/3536600/RABIT/" target="_blank" type="submit" className="border bg-theme-blue inline-block transform transition-transform duration-200 hover:scale-105 rounded-lg  lg:w-auto  w-full lg:text-xl px-4 py-2">View on Steam</a>
+                <a href="https://store.steampowered.com/app/3536600/RABIT/" target="_blank" type="submit" className="border bg-theme-blue inline-block transform transition-transform duration-200 hover:scale-105 rounded-lg  w-auto lg:text-xl px-4 py-2">View on Steam</a>
 
 
 

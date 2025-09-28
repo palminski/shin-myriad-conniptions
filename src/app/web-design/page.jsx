@@ -12,10 +12,10 @@ export default function WWW() {
         <main className=" lg:mt-[50px] pt-8">
 
             <div className="mt-10 mb-20 space-y-8">
-                <div className="space-y-1 flex justify-between items-center">
+                <div className="space-y-4 lg:space-y-1 lg:flex justify-between items-center">
                     <div className="space-y-1">
-                        <h1 className="text-left font-bold text-5xl">Graphic & Web Design</h1>
-                        <h3 className="text-left italic text-2xl poppins-light-italic">Willamette Web Works</h3>
+                        <h1 className="text-left font-bold text-4xl lg:text-5xl">Freelance Web Design</h1>
+                        <h3 className="text-left italic lg:text-2xl poppins-light-italic">Development and support</h3>
                     </div>
                     <div >
                         <div className="h-12 flex space-x-4">
@@ -44,7 +44,7 @@ export default function WWW() {
                     At Willamette Web Works, I code websites for a wide variety of clients. I work directly with clients to understand their needs and with my co-owner and designer to bring those designs to life. Every project is different, but the goal is always the same: clean, effective design that works for the people using it.
                 </p>
 
-                <a href="https://www.willamettewebworks.net/" target="_blank" type="submit" className="border bg-theme-blue inline-block transform transition-transform duration-200 hover:scale-105 rounded-lg  lg:w-auto  w-full lg:text-xl px-4 py-2">View WWW Site</a>
+                <a href="https://www.willamettewebworks.net/" target="_blank" type="submit" className="border bg-theme-blue inline-block transform transition-transform duration-200 hover:scale-105 rounded-lg  w-auto lg:text-xl px-4 py-2">View WWW Site</a>
             </div>
 
             <div className="columns-1 sm:columns-2 md:columns-2 lg:columns-2 gap-4 lg:p-4">

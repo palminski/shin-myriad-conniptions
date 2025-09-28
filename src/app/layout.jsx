@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
 
                     <div className="container text-center mx-auto font-strong p-6">
 
-                        <p className="text-zinc-500 mb-3">Site by Will Bolls. Check me out below!</p>
+                        <p className="text-zinc-500 mb-3 text-xs lg:text-sm">Check me out on other platforms!</p>
                         <div className="h-8 flex space-x-4 w-full justify-center">
 
 

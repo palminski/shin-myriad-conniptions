@@ -15,10 +15,10 @@ export default function Thesis() {
         <main className=" lg:mt-[50px] pt-8">
 
             <div className="mt-10 mb-20 space-y-8">
-                <div className="space-y-1 flex justify-between items-center">
+                <div className="space-y-4 lg:space-y-1 lg:flex justify-between items-center">
                     <div className="space-y-1">
-                        <h1 className="text-left font-bold text-5xl">Vorpal</h1>
-                        <h3 className="text-left italic text-2xl poppins-light-italic">2D Endless Runner</h3>
+                        <h1 className="text-left font-bold text-4xl lg:text-5xl">Vorpal</h1>
+                        <h3 className="text-left italic lg:text-2xl poppins-light-italic">2D Endless Runner</h3>
                     </div>
                     <div className="h-12 flex space-x-4">
 
@@ -44,7 +44,7 @@ export default function Thesis() {
                     Swipe to move and tap the screen to change colors in order to slice through enemies and colored blocks like butter, but beware, enemies that don't match your color will end your run. Make sure to be speedy as well, as going to far off the screen will result in a game over!
                 </p>
 
-                <a href="https://play.google.com/store/apps/details?id=com.rabitgames.vorpal&pcampaignid=web_share" target="_blank" type="submit" className="border bg-theme-blue inline-block transform transition-transform duration-200 hover:scale-105 rounded-lg  lg:w-auto  w-full lg:text-xl px-4 py-2">View on Play Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.rabitgames.vorpal&pcampaignid=web_share" target="_blank" type="submit" className="border bg-theme-blue inline-block transform transition-transform duration-200 hover:scale-105 rounded-lg  w-auto lg:text-xl px-4 py-2">View on Play Store</a>
 
 
 

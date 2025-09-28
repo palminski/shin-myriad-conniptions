@@ -18,10 +18,11 @@ export default function Home() {
 
             {/* ----------------------------------------------------------------------------------------------------------------------------------- */}
 
-            <div className=" space-y-4 " id="professional-work">
+            <div className=" space-y-4 " >
+                <div className="relative top-[-120px]" id="professional-work"></div>
                 <div className="mb-20 space-y-8">
                     <div className="space-y-1">
-                        <h2 className="text-left font-bold text-5xl">Professional Work</h2>
+                        <h2 className="text-left font-bold text-5xl " >Professional Work</h2>
                         <h3 className="text-left italic text-2xl poppins-light-italic">Web and Application Development</h3>
                     </div>
 
@@ -82,8 +83,8 @@ export default function Home() {
             {/* <hr className="my-16 border-black" /> */}
             {/* ----------------------------------------------------------------------------------------------------------------------------------- */}
 
-            <div className="pt-20 space-y-4" id="personal-projects">
-
+            <div className="pt-20 space-y-4" >
+<div className="relative top-[-120px]" id="personal-projects"></div>
                 <div className="mb-20 space-y-8">
                     <div className="space-y-1">
                         <h2 className="text-left font-bold text-5xl">Personal Projects</h2>
@@ -91,14 +92,14 @@ export default function Home() {
                     </div>
 
                     <p className="text-lg text-zinc-400">
-                        In addition to my professional work I have also undertaken several personal projects in my free time in order to experiment, learn new skills, and take on the challenge of bringing concepts all the way from prototype to completion. These range from making and publishing games in unity to developing custom AI tools to assist in language study. Here are a few highlights.
+                        In addition to my professional work I have also undertaken several personal projects in my free time in order to experiment, learn new skills, and take on the challenge of bringing concepts all the way from prototype to completion. These range from making and publishing games in unity to developing custom sites for myself and friends to enjoy. Here are a few highlights.
                     </p>
                 </div>
 
 
                 <div className="flex flex-wrap">
-                    <div className="w-full lg:w-1/2 p-2">
-                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/RABITCard.png')] aspect-square">
+                    <div className="w-full lg:w-full p-2">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/RABITCard.png')] lg:bg-[url('/images/MainPageCards/aspect21.png')] aspect-square lg:aspect-[2/1]">
                             <Link href={"rabit"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">RABIT</h3>
@@ -127,7 +128,7 @@ export default function Home() {
                             </Link>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/2 p-2">
+                    {/* <div className="w-full lg:w-1/2 p-2">
                         <div className="relative shadow rounded-lg bg-cover bg-[url('/images/StructuralAxon.jpg')] aspect-square">
                             <Link href={"drawings"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
@@ -136,7 +137,7 @@ export default function Home() {
                                 <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Nihonki</h3>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
@@ -210,7 +211,7 @@ export default function Home() {
 
                     <Image
                         src="/images/profile-image.jpeg"
-                        alt="Ben Welding"
+                        alt="Will Waving"
                         width={3000}
                         height={3000}
                         className="w-full h-full object-cover mx-auto order-first rounded-t-xl lg:rounded-tl-none lg:rounded-r-xl"

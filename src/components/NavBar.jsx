@@ -116,7 +116,7 @@ export default function NavBar() {
 
             </div>
             {/* MOBILE DROPDOWN MENU */}
-            <div className={`lg:hidden  transition-all duration-300 ease-in-out transform ${navOpen ? 'opacity-100 max-h-screen ' : 'opacity-0 max-h-0 '}`}>
+            <div className={`lg:hidden  transition-all duration-300 ease-in-out transform ${navOpen ? 'opacity-100 max-h-screen ' : 'opacity-0 max-h-0 pointer-events-none'}`}>
 
                 <ul className={`flex absolute flex-col items-left px-9 justify-between bg-zinc-800 w-full transition-all duration-300 ease-in-out transform${navOpen ? 'opacity-100 max-h-screen ' : 'opacity-0 max-h-0 '}`}>
 
