@@ -34,27 +34,27 @@ export default function Home() {
                 <div className="flex flex-wrap">
                     <div className="w-full lg:w-1/2 p-2">
                         <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/www_laptop.jpg')] aspect-square">
+                            <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Freelance Web Design</h3>
                             <Link href={"web-design"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Freelance Web Design</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Freelance Web Design</h3>
                             </Link>
                         </div>
                     </div>
 
                     <div className="w-full lg:w-1/2 p-2">
                         <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/talk-nerdy-to-me.png')] aspect-square">
+                            <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Developer at Partnered Solutions IT</h3>
                             <Link href={"psit"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Developer at Partnered Solutions IT</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Developer at Partnered Solutions IT</h3>
 
                             </Link>
                         </div>
                     </div>
-                    
+
 
                     {/* <div className="w-full lg:w-1/2 p-2">
                         <div className="relative shadow rounded-lg bg-cover bg-[url('/images/stairs.jpg')] aspect-square">
@@ -62,7 +62,7 @@ export default function Home() {
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Concrete & Design</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Concrete & Design</h3>
+                                <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Concrete & Design</h3>
                             </Link>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ export default function Home() {
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Interior Design</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Interior Design</h3>
+                                <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Interior Design</h3>
                             </Link>
                         </div>
                     </div> */}
@@ -84,7 +84,7 @@ export default function Home() {
             {/* ----------------------------------------------------------------------------------------------------------------------------------- */}
 
             <div className="pt-20 space-y-4" >
-<div className="relative top-[-120px]" id="personal-projects"></div>
+                <div className="relative top-[-120px]" id="personal-projects"></div>
                 <div className="mb-20 space-y-8">
                     <div className="space-y-1">
                         <h2 className="text-left font-bold text-5xl">Personal Projects</h2>
@@ -100,31 +100,31 @@ export default function Home() {
                 <div className="flex flex-wrap">
                     <div className="w-full lg:w-full p-2">
                         <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/RABITCard.png')] lg:bg-[url('/images/MainPageCards/aspect21.png')] aspect-square lg:aspect-[2/1]">
+                            <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">RABIT</h3>
                             <Link href={"rabit"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">RABIT</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">RABIT</h3>
                             </Link>
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 p-2">
                         <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/VORPAL.jpg')] aspect-square">
+                            <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Vorpal</h3>
                             <Link href={"vorpal"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Vorpal</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Vorpal</h3>
                             </Link>
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 p-2">
                         <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/redops.png')] aspect-square">
+                            <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Redops</h3>
                             <Link href={"redops"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Redops</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Redops</h3>
                             </Link>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ export default function Home() {
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Nihonki</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Nihonki</h3>
+                                <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Nihonki</h3>
                             </Link>
                         </div>
                     </div> */}
@@ -164,7 +164,7 @@ export default function Home() {
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Brutalism Collages</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Brutalism Collages</h3>
+                                <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Brutalism Collages</h3>
                             </Link>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ export default function Home() {
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Arcana Card Game</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">Arcana Card Game</h3>
+                                <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Arcana Card Game</h3>
                             </Link>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ export default function Home() {
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">35mm Fim</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">35mm Fim</h3>
+                                <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">35mm Fim</h3>
                             </Link>
                         </div>
                     </div>
@@ -194,7 +194,7 @@ export default function Home() {
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">DMX Lighting</h3>
                                 </div>
-                                <h3 className="lg:hidden w-full rounded-b-lg text-center text-2xl py-4 uppercase bg-black/90 bg-[url('/images/bgSVGs/filmGrain.svg')">DMX Lighting</h3>
+                                <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">DMX Lighting</h3>
                             </Link>
                         </div>
                     </div>
@@ -224,10 +224,10 @@ export default function Home() {
                         <h2 className="text-left font-bold text-5xl">About <span className="text-purple-800">Me</span></h2>
                         <p className="text-left lg:text-lg">
                             Hello! I am William Bolls, a software developer from Eugene, Oregon with an interest in web and game design. I have completed a comprehensive full-stack web development bootcamp through the University of Oregon. This rigorous program ingrained in me a deep understanding of JavaScript and the MERN stack, forming the foundation of my expertise in web technologies. Beyond this foundational training, I also possess a bachelor's degree in Psychology and Japanese culture from the same institution, providing me with a unique perspective in the realm of software design and user experience.
-<br />
-Though the bootcamp was primarily centered around JavaScript and the MERN stack, my learning journey didn't stop there. Post-bootcamp, I've explored a myriad of technologies: from developing a mobile game application using Unity and C# to crafting websites with TypeScript and the Angular framework. This self study has not only taught me about the involved technologies, but also has improved my ability to adapt and utilize new technologies quickly.
-<br />
-This website has a selections of some of the projects that I have worked on or am currently working on with links to the application itself (or to videos demonstrating the application in the case of unpublished games) as well as to its github repository. If any of these projects pique your interest, or you have any questions, comments, or proposals, please don't hesitate to reach out! I can be reached by either using the form on this website, or via email at williambolls98@gmail.com.
+                            <br />
+                            Though the bootcamp was primarily centered around JavaScript and the MERN stack, my learning journey didn't stop there. Post-bootcamp, I've explored a myriad of technologies: from developing a mobile game application using Unity and C# to crafting websites with TypeScript and the Angular framework. This self study has not only taught me about the involved technologies, but also has improved my ability to adapt and utilize new technologies quickly.
+                            <br />
+                            This website has a selections of some of the projects that I have worked on or am currently working on with links to the application itself (or to videos demonstrating the application in the case of unpublished games) as well as to its github repository. If any of these projects pique your interest, or you have any questions, comments, or proposals, please don't hesitate to reach out! I can be reached by either using the form on this website, or via email at williambolls98@gmail.com.
                         </p>
                     </div>
 
