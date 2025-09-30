@@ -109,7 +109,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 p-2">
-                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/Vorpal.jpg')] aspect-square">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/VORPAL.jpg')] aspect-square">
                             <Link href={"vorpal"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">Vorpal</h3>
