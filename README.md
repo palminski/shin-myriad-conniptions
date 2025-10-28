@@ -1,36 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Will Bolls Portfolio Site
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Hello! I am William Bolls, a software developer from Eugene, Oregon with an interest in web and game design. I have completed a comprehensive full-stack web development bootcamp through the University of Oregon. This rigorous program ingrained in me a deep understanding of JavaScript and the MERN stack, forming the foundation of my expertise in web technologies. Beyond this foundational training, I also possess a bachelor's degree in Psychology and Japanese culture from the same institution, providing me with a unique perspective in the realm of software design and user experience.  
+Though the bootcamp was primarily centered around JavaScript and the MERN stack, my learning journey didn't stop there. Post-bootcamp, I've explored a myriad of technologies: from developing a mobile game application using Unity and C# to crafting websites with TypeScript and the Angular framework. This self study has not only taught me about the involved technologies, but also has improved my ability to adapt and utilize new technologies quickly.  
+This website has a selections of some of the projects that I have worked on or am currently working on with links to the application itself (or to videos demonstrating the application in the case of unpublished games) as well as to its github repository. If any of these projects pique your interest, or you have any questions, comments, or proposals, please don't hesitate to reach out! I can be reached by either using the form on this website viewable [here](https://shin-myriad-conniptions.vercel.app/)!
