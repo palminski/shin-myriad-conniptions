@@ -92,18 +92,38 @@ export default function Home() {
                     </div>
 
                     <p className="text-lg text-zinc-400">
-                        In addition to my professional work I have also undertaken several personal projects in my free time in order to experiment, learn new skills, and take on the challenge of bringing concepts all the way from prototype to completion. These range from making and publishing games in unity to developing custom sites for myself and friends to enjoy. Here are a few highlights.
+                        In addition to my professional work I have also undertaken several personal projects in my free time in order to experiment, learn new skills, and take on the challenge of bringing concepts all the way from prototype to completion. These range from making and publishing games in unity to developing custom application to assist in my hobbies. Here are a few highlights.
                     </p>
                 </div>
 
 
                 <div className="flex flex-wrap">
-                    <div className="w-full lg:w-full p-2">
+                    {/* <div className="w-full lg:w-full p-2">
                         <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/RABITCard.png')] lg:bg-[url('/images/MainPageCards/aspect21.png')] aspect-square lg:aspect-[2/1]">
                             <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">RABIT</h3>
                             <Link href={"rabit"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
                                 <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
                                     <h3 className="text-6xl text-center uppercase">RABIT</h3>
+                                </div>
+                            </Link>
+                        </div>
+                    </div> */}
+                    <div className="w-full lg:w-1/2 p-2">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/RABITCard.png')] aspect-square">
+                            <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">RABIT</h3>
+                            <Link href={"rabit"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
+                                <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
+                                    <h3 className="text-6xl text-center uppercase">RABIT</h3>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="w-full lg:w-1/2 p-2">
+                        <div className="relative shadow rounded-lg bg-cover bg-[url('/images/MainPageCards/umeboshi.jpg')] aspect-square">
+                            <h3 className="lg:hidden w-full rounded-t-lg text-center text-2xl py-4 uppercase bg-purple-950/60 bg-[url('/images/bgSVGs/filmGrain.svg')">Umeboshi</h3>
+                            <Link href={"umeboshi"} className="group absolute inset-0 w-full h-full flex items-end lg:items-center justify-center">
+                                <div className="transition-all opacity-0 group-hover:opacity-100 duration-300 ease-in-out absolute bg-[url('/images/bgSVGs/filmGrain.svg')] bg-black/90 inset-5 rounded-lg hidden lg:flex items-center justify-center">
+                                    <h3 className="text-6xl text-center uppercase">Umeboshi</h3>
                                 </div>
                             </Link>
                         </div>
