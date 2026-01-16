@@ -239,15 +239,15 @@ export default function Home() {
 
                 </div>
 
-                <div className="relative bg-[url('/images/bgSVGs/filmGrain.svg')]  bg-zinc-950 lg:h-[85vh] w-full rounded-b-xl lg:rounded-br-none lg:rounded-l-xl shadow-lg shadow-purple-900 lg:flex items-center justify-center">
+                <div className="relative bg-[url('/images/bgSVGs/filmGrain.svg')]  bg-zinc-950  lg:h-[85vh] overflow-scroll w-full rounded-b-xl lg:rounded-br-none lg:rounded-l-xl shadow-lg shadow-purple-900 lg:flex items-center justify-center">
                     <div className="p-4 lg:p-24 space-y-4">
                         <h2 className="text-left font-bold text-5xl">About <span className="text-purple-800">Me</span></h2>
-                        <p className="text-left lg:text-lg">
-                            Hello! I am William Bolls, a software developer from Eugene, Oregon with an interest in web and game design. I have completed a comprehensive full-stack web development bootcamp through the University of Oregon. This rigorous program ingrained in me a deep understanding of JavaScript and the MERN stack, forming the foundation of my expertise in web technologies. Beyond this foundational training, I also possess a bachelor's degree in Psychology and Japanese culture from the same institution, providing me with a unique perspective in the realm of software design and user experience.
+                        <p className="text-left">
+                            Hello! I am a software developer from Eugene, Oregon with an interest in web and game design. I have completed a comprehensive full-stack web development bootcamp through the University of Oregon. This rigorous program ingrained in me a deep understanding of JavaScript and the MERN stack, forming the foundation of my expertise in web technologies. Beyond this foundational training, I also possess a bachelor's degree in Psychology and Japanese culture from the same institution, providing me with a unique perspective in the realm of software design and user experience.
                             <br />
                             Though the bootcamp was primarily centered around JavaScript and the MERN stack, my learning journey didn't stop there. Post-bootcamp, I've explored a myriad of technologies: from developing a mobile game application using Unity and C# to crafting websites with TypeScript and the Angular framework. This self study has not only taught me about the involved technologies, but also has improved my ability to adapt and utilize new technologies quickly.
                             <br />
-                            This website has a selections of some of the projects that I have worked on or am currently working on with links to the application itself (or to videos demonstrating the application in the case of unpublished games) as well as to its github repository. If any of these projects pique your interest, or you have any questions, comments, or proposals, please don't hesitate to reach out! I can be reached by either using the form on this website, or via email at williambolls98@gmail.com.
+                            This website has a selections of some of the projects that I have worked on or am currently working on with links to the application itself as well as to its github repository. If any of these projects pique your interest, or you have any questions, comments, or proposals, please don't hesitate to reach out! I can be reached by either using the form on this website, or via email at williambolls98@gmail.com.
                         </p>
                     </div>
 
